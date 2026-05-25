@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="500" rx="16" fill="#0A0A0A"/>
+
+<path d="M56 272 Q56 248 80 240 L256 232 Q296 232 320 208 L336 200 Q352 192 360 208 L360 248 Q360 280 328 288 Z" stroke="rgba(255,255,255,0.5)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M64 272 Q64 296 88 296 L312 296 Q336 296 336 272" stroke="rgba(255,255,255,0.5)" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M224 232 L224 176 Q224 144 248 136 L288 128 Q304 128 312 144 L320 200" stroke="rgba(255,255,255,0.5)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<path d="M120 232 L120 168 Q120 144 144 144 L200 144 Q216 144 216 160 L216 232" stroke="rgba(255,255,255,0.5)" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M80 240 Q64 224 64 248" stroke="rgba(255,255,255,0.25)" stroke-width="2" fill="none"/>
+<circle cx="248" cy="176" r="6" stroke="rgba(255,255,255,0.25)" stroke-width="1.5" fill="none"/>
+<circle cx="272" cy="168" r="6" stroke="rgba(255,255,255,0.25)" stroke-width="1.5" fill="none"/>
+<circle cx="296" cy="176" r="6" stroke="rgba(255,255,255,0.25)" stroke-width="1.5" fill="none"/>
+<line x1="64" y1="264" x2="336" y2="264" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+<text x="200" y="415" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="Inter,system-ui,sans-serif" font-size="18" font-weight="600">Eclipse High</text>
+<text x="200" y="440" text-anchor="middle" fill="rgba(255,255,255,0.3)" font-family="Inter,system-ui,sans-serif" font-size="13">Sneakers</text>
+<text x="200" y="470" text-anchor="middle" fill="rgba(255,255,255,0.12)" font-family="Inter,system-ui,sans-serif" font-size="11" letter-spacing="3">ZERO LABEL</text>
+</svg>

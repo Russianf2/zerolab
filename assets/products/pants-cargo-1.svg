@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="500" rx="16" fill="#0A0A0A"/>
+
+<path d="M88 32 Q88 16 112 16 L288 16 Q312 16 312 32 L312 56 Q312 80 296 88 L296 336 Q296 360 272 360 L240 360 Q216 360 216 336 L216 168 L184 168 L184 336 Q184 360 160 360 L128 360 Q104 360 104 336 L104 88 Q88 80 88 56 Z" stroke="rgba(255,255,255,0.5)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="88" y1="32" x2="312" y2="32" stroke="rgba(255,255,255,0.5)" stroke-width="3" stroke-linecap="round"/>
+<line x1="72" y1="64" x2="104" y2="64" stroke="rgba(255,255,255,0.25)" stroke-width="2" stroke-linecap="round"/>
+<line x1="296" y1="64" x2="328" y2="64" stroke="rgba(255,255,255,0.25)" stroke-width="2" stroke-linecap="round"/>
+<line x1="200" y1="56" x2="200" y2="168" stroke="rgba(255,255,255,0.25)" stroke-width="2"/>
+<line x1="112" y1="352" x2="160" y2="352" stroke="rgba(255,255,255,0.25)" stroke-width="2" stroke-linecap="round"/>
+<line x1="240" y1="352" x2="288" y2="352" stroke="rgba(255,255,255,0.25)" stroke-width="2" stroke-linecap="round"/>
+<text x="200" y="415" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="Inter,system-ui,sans-serif" font-size="18" font-weight="600">Utility Cargo Pants</text>
+<text x="200" y="440" text-anchor="middle" fill="rgba(255,255,255,0.3)" font-family="Inter,system-ui,sans-serif" font-size="13">Pants</text>
+<text x="200" y="470" text-anchor="middle" fill="rgba(255,255,255,0.12)" font-family="Inter,system-ui,sans-serif" font-size="11" letter-spacing="3">ZERO LABEL</text>
+</svg>
