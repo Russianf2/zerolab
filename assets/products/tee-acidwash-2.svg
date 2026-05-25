@@ -1,0 +1,12 @@
+<svg viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="500" rx="16" fill="url(#grad)"/>
+  <defs><linearGradient id="grad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2A2A2A"/><stop offset="100%" stop-color="#0A0A0A"/></linearGradient></defs>
+  <path d="M112 80 Q112 56,140 48 Q200 40,260 48 Q288 56,288 80 L328 96 Q362 128,350 184 L312 164 L312 312 Q312 344,280 344 L120 344 Q88 344,88 312 L88 164 L50 184 Q38 128,72 96 Z" fill="#1A1A1A" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
+  <path d="M162 72 L238 72 L238 88 L162 88 Z" fill="rgba(255,255,255,0.07)"/>
+  <path d="M112 240 Q200 256,288 240" stroke="rgba(255,255,255,0.07)" stroke-width="1.5" fill="none"/>
+  <path d="M70 100 Q110 110,200 110 Q290 110,330 100" stroke="rgba(255,255,255,0.04)" stroke-width="1" fill="none"/>
+  <rect x="60" y="380" width="280" height="1" fill="rgba(255,255,255,0.06)"/>
+  <text x="200" y="415" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="600">Acid Wash Tee</text>
+  <text x="200" y="440" text-anchor="middle" fill="rgba(255,255,255,0.3)" font-family="Inter, system-ui, sans-serif" font-size="13">Oversize Tees</text>
+  <text x="200" y="470" text-anchor="middle" fill="rgba(255,255,255,0.12)" font-family="Inter, system-ui, sans-serif" font-size="11" letter-spacing="3">ZERO LABEL</text>
+</svg>
