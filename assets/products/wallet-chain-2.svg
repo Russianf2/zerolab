@@ -1,0 +1,13 @@
+<svg viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="500" rx="16" fill="#0A0A0A"/>
+
+<g transform="translate(20, 20) scale(3.6)">
+  <path d="M36 14 Q36 8 44 8 L76 8 Q84 8 84 14 L84 46 Q84 52 78 52 L42 52 Q36 52 36 46 Z" stroke="rgba(255,255,255,0.5)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="36" y1="22" x2="84" y2="22" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <path d="M40 52 L40 62 Q40 68 60 68 Q80 68 80 62 L80 52" stroke="rgba(255,255,255,0.3)" stroke-width="1.2" fill="none"/>
+  <path d="M54 8 L54 4 Q56 2 60 2 L64 2 Q66 4 66 8" stroke="rgba(255,255,255,0.35)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+</g>
+<text x="200" y="415" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="Inter,system-ui,sans-serif" font-size="18" font-weight="600">Chain Wallet</text>
+<text x="200" y="440" text-anchor="middle" fill="rgba(255,255,255,0.3)" font-family="Inter,system-ui,sans-serif" font-size="13">Accessories</text>
+<text x="200" y="470" text-anchor="middle" fill="rgba(255,255,255,0.12)" font-family="Inter,system-ui,sans-serif" font-size="11" letter-spacing="3">ZERO LABEL</text>
+</svg>

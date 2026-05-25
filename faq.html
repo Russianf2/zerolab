@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ — ZERO LABEL</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .content-page { padding-top: 140px; padding-bottom: 80px; }
+    .content-page h1 { font-size: 2.2rem; font-weight: 700; margin-bottom: 8px; letter-spacing: -0.02em; }
+    .content-page .subtitle { color: var(--text-muted); margin-bottom: 48px; font-size: 0.95rem; }
+    .content-section { background: var(--bg-card); border: 1px solid var(--border); border-radius: 20px; padding: 40px; margin-bottom: 20px; }
+    .content-section h2 { font-size: 1.2rem; font-weight: 600; margin-bottom: 16px; color: var(--text-primary); }
+    .content-section p { color: var(--text-secondary); line-height: 1.8; margin-bottom: 16px; font-size: 0.95rem; }
+    .content-section p:last-child { margin-bottom: 0; }
+    .content-section ul { list-style: none; padding: 0; }
+    .content-section ul li { color: var(--text-secondary); padding: 8px 0; padding-left: 20px; position: relative; line-height: 1.6; font-size: 0.95rem; }
+    .content-section ul li::before { content: '—'; position: absolute; left: 0; color: var(--text-muted); }
+    .content-section strong { color: var(--text-primary); font-weight: 600; }
+    .content-section .highlight { display: inline-block; padding: 4px 12px; background: rgba(255,255,255,0.05); border: 1px solid var(--border); border-radius: 6px; font-size: 0.85rem; color: var(--text-primary); }
+  </style>
+</head>
+<body data-page="shop">
+  <div class="page-loader" id="pageLoader"><div class="loader-spinner"></div></div>
+  <nav class="navbar" id="navbar"></nav>
+  <div class="mobile-menu" id="mobileMenu"></div>
+
+  <div class="content-page container">
+    <h1>Preguntas Frecuentes</h1>
+    <p class="subtitle">ZERO LABEL</p>
+
+    
+<div class="content-section">
+  <h2>Pedidos</h2>
+  <p><strong>¿Cómo puedo realizar un pedido?</strong><br>
+  Simplemente navega por nuestra tienda, selecciona los productos que te gusten, elige tu talla y color, y agrégalos al carrito. Luego sigue el proceso de checkout para completar tu compra.</p>
+  <p><strong>¿Puedo modificar mi pedido después de realizarlo?</strong><br>
+  Si tu pedido aún no ha sido procesado (dentro de las primeras 2 horas), puedes escribirnos a <span class="highlight">hello@zerolabel.com</span> para solicitar cambios. Una vez procesado, no es posible modificar.</p>
+  <p><strong>¿Cómo sé que mi pedido fue confirmado?</strong><br>
+  Después de completar tu compra, serás redirigido a una página de confirmación con un número de pedido. También recibirás un email de confirmación con los detalles de tu orden.</p>
+</div>
+<div class="content-section">
+  <h2>Pagos</h2>
+  <p><strong>¿Qué métodos de pago aceptan?</strong><br>
+  Aceptamos Visa, Mastercard, PayPal y Apple Pay. Todos los pagos son procesados de forma segura.</p>
+  <p><strong>¿En qué moneda se realizan los cobros?</strong><br>
+  Todos los precios están expresados en Pesos Colombianos (COP). Si pagas desde otro país, tu banco realizará la conversión correspondiente.</p>
+  <p><strong>¿Es seguro comprar en ZERO LABEL?</strong><br>
+  Sí. Utilizamos tecnologías de encriptación SSL para proteger tu información personal y financiera.</p>
+</div>
+<div class="content-section">
+  <h2>Productos</h2>
+  <p><strong>¿Las prendas son originales?</strong><br>
+  ZERO LABEL es una marca propia. Todos nuestros productos son diseñados y fabricados bajo nuestros estándares de calidad.</p>
+  <p><strong>¿Cómo cuido mis prendas ZERO LABEL?</strong><br>
+  Recomendamos lavar en frío, no usar blanqueador, secar a la sombra y planchar a temperatura media. Seguir estas instrucciones alarga la vida de tus prendas.</p>
+</div>
+<div class="content-section">
+  <h2>Más Información</h2>
+  <p>Si no encuentras respuesta a tu pregunta, visita nuestra página de <a href="contact.html" style="color:var(--text-primary);text-decoration:underline">Contacto</a> o escríbenos directamente a <span class="highlight">hello@zerolabel.com</span></p>
+</div>
+
+  </div>
+
+  <footer class="footer" id="footer"></footer>
+
+  <script src="js/utils.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/components.js"></script>
+</body>
+</html>
