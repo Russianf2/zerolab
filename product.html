@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Producto — ZERO LABEL</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="shop">
+  <div class="page-loader" id="pageLoader"><div class="loader-spinner"></div></div>
+  <nav class="navbar" id="navbar"></nav>
+  <div class="mobile-menu" id="mobileMenu"></div>
+
+  <div class="container product-detail" id="productDetail">
+    <div class="product-gallery">
+      <div class="product-main-image" id="mainImage">
+        <svg viewBox="0 0 100 100" fill="none"><rect width="100" height="100" fill="#1A1A1A"/><text x="50" y="55" text-anchor="middle" fill="#6B6B6B" font-size="10">Cargando...</text></svg>
+      </div>
+      <div class="product-thumbnails" id="thumbnails"></div>
+    </div>
+    <div class="product-info" id="productInfo">
+      <div class="product-breadcrumb">
+        <a href="shop.html">Tienda</a> / <a href="#" id="breadcrumbCat">Categoría</a> / <span id="breadcrumbName">Producto</span>
+      </div>
+      <h1 class="product-title" id="productName">Nombre</h1>
+      <div class="product-price" id="productPrice">$0</div>
+      <p class="product-description" id="productDescription">Descripción</p>
+
+      <div class="variation-section" id="colorSection">
+        <div class="variation-label">Color</div>
+        <div class="variation-options" id="colorOptions"></div>
+      </div>
+
+      <div class="variation-section">
+        <div class="variation-label">Talla</div>
+        <div class="variation-options" id="sizeOptions"></div>
+      </div>
+
+      <div class="product-actions">
+        <button class="btn btn-primary btn-lg" id="addToCartBtn">Agregar al Carrito</button>
+        <button class="btn btn-outline btn-lg" id="buyNowBtn">Comprar Ahora</button>
+      </div>
+
+      <div class="product-meta" id="productMeta"></div>
+    </div>
+  </div>
+
+  <section class="section" id="relatedSection" style="display:none">
+    <div class="container">
+      <h2 class="section-title">Completa el Look</h2>
+      <p class="section-subtitle">También te puede gustar</p>
+      <div class="product-grid" id="relatedGrid"></div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer"></footer>
+
+  <script src="js/utils.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/product.js"></script>
+</body>
+</html>
