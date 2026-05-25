@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda — ZERO LABEL</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .mobile-filter-toggle { display: none; }
+    @media (max-width: 768px) {
+      .mobile-filter-toggle { display: flex; }
+    }
+  </style>
+</head>
+<body data-page="shop">
+  <div class="page-loader" id="pageLoader"><div class="loader-spinner"></div></div>
+  <nav class="navbar" id="navbar"></nav>
+  <div class="mobile-menu" id="mobileMenu"></div>
+
+  <div class="shop-layout container">
+    <aside class="shop-sidebar" id="shopSidebar">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:24px">
+        <h3 style="margin:0">Filtros</h3>
+        <button class="btn btn-sm btn-dark" onclick="clearFilters()" style="font-size:0.7rem">Limpiar Todo</button>
+      </div>
+
+      <div class="filter-section">
+        <h3>Categoría</h3>
+        <div class="filter-options" id="categoryFilters"></div>
+      </div>
+
+      <div class="filter-section">
+        <h3>Rango de Precio</h3>
+        <div class="filter-options" id="priceFilters"></div>
+      </div>
+
+      <button class="btn btn-primary" style="width:100%;margin-top:16px;display:none" id="mobileApplyBtn" onclick="document.getElementById('shopSidebar').classList.remove('mobile-open')">Aplicar Filtros</button>
+    </aside>
+
+    <main>
+      <div class="shop-header">
+        <div class="shop-header-left">
+          <h1 id="shopTitle">Todos los Productos</h1>
+          <p id="productCount">Cargando...</p>
+        </div>
+        <div class="shop-controls">
+          <button class="btn btn-sm btn-dark mobile-filter-toggle" onclick="document.getElementById('shopSidebar').classList.toggle('mobile-open')">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+            Filtros
+          </button>
+          <div class="shop-search">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" id="searchInput" placeholder="Buscar...">
+          </div>
+          <select class="shop-sort" id="sortSelect" onchange="filterAndRender()">
+            <option value="default">Ordenar por</option>
+            <option value="price-asc">Precio: Menor a Mayor</option>
+            <option value="price-desc">Precio: Mayor a Menor</option>
+            <option value="rating">Popularidad</option>
+            <option value="newest">Más Nuevos</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="product-grid" id="productGrid"></div>
+      <div class="empty-state" id="emptyState" style="display:none">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <h3>No se encontraron productos</h3>
+        <p>Ajusta los filtros o términos de búsqueda.</p>
+        <button class="btn btn-outline" onclick="clearFilters()">Limpiar Filtros</button>
+      </div>
+    </main>
+  </div>
+
+  <footer class="footer" id="footer"></footer>
+
+  <script src="js/utils.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/shop.js"></script>
+</body>
+</html>

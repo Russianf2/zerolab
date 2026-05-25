@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="500" rx="16" fill="url(#grad)"/>
+  <defs><linearGradient id="grad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2A2A2A"/><stop offset="100%" stop-color="#0A0A0A"/></linearGradient></defs>
+  <path d="M72 32 Q72 20,104 20 L296 20 Q328 20,328 32 L328 64 Q328 88,312 96 L312 344 Q312 368,288 368 L256 368 Q232 368,232 344 L232 176 L168 176 L168 344 Q168 368,144 368 L112 368 Q88 368,88 344 L88 96 Q72 88,72 64 Z" fill="#1A1A1A" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
+  <path d="M88 32 L312 32" stroke="rgba(255,255,255,0.15)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M56 56 L344 56" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <path d="M56 72 L72 72" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <path d="M328 72 L344 72" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <line x1="200" y1="56" x2="200" y2="176" stroke="rgba(255,255,255,0.06)" stroke-width="1.5"/>
+  <path d="M72 120 L168 120" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="4 4"/>
+  <path d="M328 120 L232 120" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="4 4"/>
+  <rect x="60" y="380" width="280" height="1" fill="rgba(255,255,255,0.06)"/>
+  <text x="200" y="415" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="600">Shadow Cargo Pants</text>
+  <text x="200" y="440" text-anchor="middle" fill="rgba(255,255,255,0.3)" font-family="Inter, system-ui, sans-serif" font-size="13">Pants</text>
+  <text x="200" y="470" text-anchor="middle" fill="rgba(255,255,255,0.12)" font-family="Inter, system-ui, sans-serif" font-size="11" letter-spacing="3">ZERO LABEL</text>
+</svg>

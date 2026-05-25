@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedido Confirmado — ZERO LABEL</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="shop">
+  <div class="page-loader" id="pageLoader"><div class="loader-spinner"></div></div>
+  <nav class="navbar" id="navbar"></nav>
+  <div class="mobile-menu" id="mobileMenu"></div>
+
+  <div class="receipt-page container" id="receiptPage">
+    <div class="receipt-actions" id="receiptActions">
+      <button class="btn btn-primary btn-sm" onclick="downloadPDF()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Descargar PDF
+      </button>
+      <button class="btn btn-outline btn-sm" onclick="window.print()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+        Imprimir
+      </button>
+      <a href="shop.html" class="btn btn-dark btn-sm">Seguir Comprando</a>
+    </div>
+
+    <div class="receipt" id="receiptContent">
+      <div class="receipt-header">
+        <div class="receipt-confirmation">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          Pago Confirmado
+        </div>
+        <div class="receipt-brand">ZERO LABEL</div>
+        <p style="color:var(--text-muted);font-size:0.8rem;margin-top:4px">No Rules. Just Style.</p>
+      </div>
+
+      <div class="receipt-order-info" id="receiptInfo"></div>
+      <h3 style="font-size:0.85rem;font-weight:600;margin-bottom:16px;color:var(--text-muted);letter-spacing:0.05em;text-transform:uppercase">Artículos</h3>
+      <div class="receipt-items" id="receiptItems"></div>
+      <div class="receipt-totals" id="receiptTotals"></div>
+      <div class="receipt-payment" id="receiptPayment"></div>
+      <div class="receipt-qr" id="receiptQR"></div>
+      <div class="receipt-footer-text">Gracias por tu compra</div>
+    </div>
+  </div>
+
+  <footer class="footer" id="footer"></footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/receipt.js"></script>
+</body>
+</html>

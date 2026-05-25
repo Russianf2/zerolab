@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="500" rx="16" fill="url(#grad)"/>
+  <defs><linearGradient id="grad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2A2A2A"/><stop offset="100%" stop-color="#0A0A0A"/></linearGradient></defs>
+  <path d="M144 32 Q144 16,160 16 L240 16 Q256 16,256 32 L264 60 L280 80 Q288 96,280 108 L280 128 Q280 144,264 144 L136 144 Q120 144,120 128 L120 108 Q112 96,120 80 Z" fill="#1A1A1A" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
+  <path d="M152 144 L152 216 Q152 240,200 240 Q248 240,248 216 L248 144" fill="#1A1A1A" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <path d="M168 80 L232 80" stroke="rgba(255,255,255,0.12)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M176 96 L224 96" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M200 240 L200 272" stroke="rgba(255,255,255,0.12)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M176 288 Q200 304,224 288" stroke="rgba(255,255,255,0.1)" stroke-width="3" fill="none"/>
+  <rect x="60" y="380" width="280" height="1" fill="rgba(255,255,255,0.06)"/>
+  <text x="200" y="415" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="600">Tactical Bag</text>
+  <text x="200" y="440" text-anchor="middle" fill="rgba(255,255,255,0.3)" font-family="Inter, system-ui, sans-serif" font-size="13">Accessories</text>
+  <text x="200" y="470" text-anchor="middle" fill="rgba(255,255,255,0.12)" font-family="Inter, system-ui, sans-serif" font-size="11" letter-spacing="3">ZERO LABEL</text>
+</svg>

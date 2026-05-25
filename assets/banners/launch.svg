@@ -1,0 +1,9 @@
+<svg viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="1199" height="399" rx="23.5" fill="#1A1A1A" stroke="rgba(255,255,255,0.08)"/>
+  <circle cx="200" cy="200" r="250" fill="rgba(255,255,255,0.02)"/>
+  <circle cx="1000" cy="200" r="200" fill="rgba(255,255,255,0.02)"/>
+  <text x="600" y="160" text-anchor="middle" fill="#fff" font-family="Inter, system-ui, sans-serif" font-size="38" font-weight="700">LAUNCH SALE — 20% OFF EVERYTHING</text>
+  <text x="600" y="200" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="400">Use code at checkout to claim your discount. Welcome to the family.</text>
+  <rect x="490" y="225" width="220" height="38" rx="19" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.15)" stroke-dasharray="4 4"/>
+  <text x="600" y="250" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="3">ZEROLABEL</text>
+</svg>
